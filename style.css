@@ -66,6 +66,7 @@ ul.navBar li a:hover {
     padding: 17px 35px;
 }
 
+
 .header {
     background-image: url('/images/developer.png');
     background-repeat: no-repeat;
@@ -266,4 +267,104 @@ ul.navBar li a:hover {
     font-weight: 700;
     padding: 15px 35px;
     margin-top: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .header {
+        width: 100%;
+    }
+
+    nav,
+    nav>ul,
+    .banner {
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
+
+    nav>ul>li {
+        padding: 10px;
+    }
+
+    .banner {
+        padding: 0;
+    }
+
+    .content {
+        width: 100%;
+        margin: 0;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-sec {
+        margin-top: 10px;
+    }
+
+    .greet {
+        margin-top: 30px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .banner-name {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .banner-text {
+        text-align: center;
+    }
+
+    .second-part,
+    .sum-sec,
+    .foot-sec {
+        flex-direction: column;
+        margin: auto;
+        padding: 0;
+    }
+
+    .first-part {
+        padding: 0;
+    }
+
+    .main-sec,
+    .expert,
+    .education {
+        margin: auto;
+        padding: auto;
+    }
+
+    .col {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .col-item {
+        margin: auto;
+        padding: auto;
+    }
+
+    .footer {
+        margin-top: 20px;
+        padding: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foot-con,
+    .foot-head {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+
 }
