@@ -273,7 +273,7 @@ ul.navBar li a:hover {
     display: none;
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:768px) {
     .header {
         width: 100%;
     }
@@ -327,6 +327,7 @@ ul.navBar li a:hover {
     .sum-sec,
     .foot-sec {
         flex-direction: column;
+        justify-content: center;
         margin: auto;
         padding: 0;
     }
@@ -340,6 +341,10 @@ ul.navBar li a:hover {
     .education {
         margin: auto;
         padding: auto;
+    }
+
+    .sum-head {
+        font-size: 20px;
     }
 
     .col {
