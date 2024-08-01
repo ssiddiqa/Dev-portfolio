@@ -1,5 +1,6 @@
 * {
     font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
 }
 
 .name {
@@ -45,6 +46,7 @@ nav {
 nav>ul {
     display: flex;
     align-items: center;
+
 }
 
 nav li {
@@ -57,7 +59,11 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
 
+ul.navBar li a:hover {
+    background-color: antiquewhite;
+    padding: 17px 35px;
 }
 
 .header {
