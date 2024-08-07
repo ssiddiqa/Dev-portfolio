@@ -198,6 +198,7 @@ ul.navBar li a:hover {
     font-weight: 700;
     padding: 15px 35px;
     margin-left: 20px;
+    margin-top: 50px;
 }
 
 .btn {
@@ -305,7 +306,7 @@ ul.navBar li a:hover {
     }
 
     .btn-sec {
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     .greet {
@@ -323,6 +324,10 @@ ul.navBar li a:hover {
         text-align: center;
     }
 
+    #banner-img {
+        width: 100%;
+    }
+
     .second-part,
     .sum-sec,
     .foot-sec {
@@ -332,8 +337,18 @@ ul.navBar li a:hover {
         padding: 0;
     }
 
+    .main-head {
+        font-size: 25px;
+    }
+
+    .main-sec {
+        width: 100%;
+        padding: 20px;
+    }
+
     .first-part {
         padding: 0;
+        width: 100%;
     }
 
     .main-sec,
@@ -344,13 +359,22 @@ ul.navBar li a:hover {
     }
 
     .sum-head {
-        font-size: 20px;
+        font-size: 19px;
+    }
+
+    .sum-btn {
+        margin: auto;
+        margin-bottom: 70px;
+    }
+
+    .sum-title {
+        margin-top: 0;
+        padding: auto;
     }
 
     .col {
         display: grid;
-        align-items: center;
-        justify-content: center;
+        padding: 10px;
     }
 
     .col-item {
@@ -361,15 +385,23 @@ ul.navBar li a:hover {
     .footer {
         margin-top: 20px;
         padding: auto;
-        justify-content: center;
-        align-items: center;
+
     }
 
     .foot-con,
     .foot-head {
         width: 100%;
-        text-align: center;
-        padding: 20px;
+        padding: 10px;
     }
 
+    #name,
+    #email,
+    #message {
+        width: 80%;
+        margin-left: 10px;
+    }
+
+    .btn-foot {
+        margin-left: 10px;
+    }
 }
